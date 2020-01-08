@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+<Resource id="audit" type="com.sap.xs.audit.api.AuditLogMessageFactory" provider="xs.openejb:XS Audit Log Message Factory Provider"/>
+<!--  <Resource id="jdbc/java-hdi-container" provider="xs.openejb:XS Default JDBC Database"
+    type="javax.sql.DataSource">
+    service=java-hdi-container
+  </Resource>-->
+</resources>

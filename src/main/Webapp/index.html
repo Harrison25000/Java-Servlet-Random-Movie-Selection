@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MovieSelect</title>
+    <link rel="stylesheet" type="text/css" href="index.css" media="screen"/>
+</head>
+<body>
+<div class="container">
+<h1>The RMS</h1>
+
+<form name="loginForm" method="post" action="MovieSelect">
+
+<!--    Actor: <input type="text" name="inputActor"/> <br/><br>-->
+
+    Year: <input type="text" name="inputYear"/> <br/><br>
+
+    Choose a Genre:
+    <br>
+    <input type="checkbox" name="inputGenre" value="Action" />Action
+    <br>
+    <input type="checkbox" name="inputGenre" value="Adventure" />Adventure
+    <br>
+    <input type="checkbox" name="inputGenre" value="Animation" />Animation
+    <br>
+    <input type="checkbox" name="inputGenre" value="Comedy" />Comedy
+    <br>
+    <input type="checkbox" name="inputGenre" value="Crime" />Crime
+    <br>
+    <input type="checkbox" name="inputGenre" value="Documentary" />Documentary
+    <br>
+    <input type="checkbox" name="inputGenre" value="Drama" />Drama
+    <br>
+    <input type="checkbox" name="inputGenre" value="Family" />Family
+    <br>
+    <input type="checkbox" name="inputGenre" value="Fantasy" />Fantasy
+    <br>
+    <input type="checkbox" name="inputGenre" value="History" />History
+    <br>
+    <input type="checkbox" name="inputGenre" value="Horror" />Horror
+    <br>
+    <input type="checkbox" name="inputGenre" value="Music" />Music
+    <br>
+    <input type="checkbox" name="inputGenre" value="Mystery" />Mystery
+    <br>
+    <input type="checkbox" name="inputGenre" value="Romance" />Romance
+    <br>
+    <input type="checkbox" name="inputGenre" value="Science Fiction" />Science Fiction
+    <br>
+    <input type="checkbox" name="inputGenre" value="TV Movie" />TV Movie
+    <br>
+    <input type="checkbox" name="inputGenre" value="War" />War
+    <br>
+    <input type="checkbox" name="inputGenre" value="Western" />Western
+    <br>
+    <br>
+
+    Number of Votes:
+    <select name="inputVoteCount">
+    <option value="0">Above 0</option>
+    <option value="500">Above 500</option>
+    <option value="1000">Above 1,000</option>
+    <option value="5000">Above 5,000</option>
+    <option value="10000">Above 10,000</option>
+    <option value="15000">Above 15,000</option>
+    <option value="20000">Above 20,000</option>
+
+</select>
+    <br>
+    <br>
+
+    Movie Rating:
+    <br>
+    <select name="inputRating">
+        <option value="n/a">N/A</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+    </select>
+
+
+    <br>
+    <br>
+    <input type="submit" value="Submit" />
+</form>
+
+</div>
+
+</body>
+</html>
